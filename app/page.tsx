@@ -5,11 +5,17 @@ export default function Home() {
     <main className="switcher wrapper">
       <picture className="decorative-image">
         <source
-          srcset="images/graphic-shallow.jpg 1x, images/graphic-shallow-2x.jpg 2x"
+          srcSet="images/graphic-shallow.jpg 1x, images/graphic-shallow-2x.jpg 2x"
           media="(max-width: 600px)"
         />
-        <source srcset="images/graphic.jpg 1x, images/graphic-2x.jpg 2x" />
-        <img src="images/graphic-shallow.jpg" alt="" loading="lazy" />
+        <source srcSet="images/graphic.jpg 1x, images/graphic-2x.jpg 2x" />
+        <Image
+          src="/images/graphic-shallow.jpg"
+          alt=""
+          width={600}
+          height={300}
+          loading="lazy"
+        />
       </picture>
       <div className="content repel" data-repel-variant="vertical">
         <header className="site-head repel">
