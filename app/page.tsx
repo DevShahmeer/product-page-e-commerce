@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
           srcSet="images/graphic-shallow.jpg 1x, images/graphic-shallow-2x.jpg 2x"
           media="(max-width: 600px)"
         />
-        <source srcSet="images/graphic.jpg 1x, images/graphic-2x.jpg 2x" />
+        <source srcSet="images/graphic.png 1x, images/graphic-2x.png 2x" />
         <Image
           src="/images/graphic-shallow.jpg"
           alt=""
@@ -20,7 +21,7 @@ export default function Home() {
       <div className="content repel" data-repel-variant="vertical">
         <header className="site-head repel">
           <p className="site-head__name">spaziovisia</p>
-          <p>Elevate your space</p>
+          <p className="space">Elevate your space</p>
         </header>
         <article className="flow">
           <h1>A tribute to ancient handicrafts</h1>
@@ -30,7 +31,7 @@ export default function Home() {
             it strong and light.
           </p>
           <p>
-            <a className="icon-link" href="#">
+            <Link className="icon-link" href="#">
               <span>Explore Kettal collection</span>
               <svg
                 aria-hidden="true"
@@ -48,7 +49,7 @@ export default function Home() {
                   />
                 </g>
               </svg>
-            </a>
+            </Link>
           </p>
         </article>
       </div>
