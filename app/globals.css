@@ -54,3 +54,24 @@ p {
 a {
   color: currentColor;
 }
+
+svg:not([width]):not([height]) {
+  height: 1.5ex;
+  width: auto;
+}
+
+main {
+  --switcher-vertical-alignment: stretch;
+}
+
+::selection {
+  background: var(--color-light);
+  color: var(--color-dark);
+}
+
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter, var(--space-s));
+  align-items: var(--switcher-vertical-alignment, flex-start);
+}
