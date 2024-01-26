@@ -1,6 +1,6 @@
 # Product Page for E-Commerce
 
-![Group 1](https://github.com/DevShahmeer/product-page-e-commerce/assets/108333592/0986ccf6-f521-4809-ae0b-098e1efec26b)
+![Group 1 1](https://github.com/DevShahmeer/product-page-e-commerce/assets/108333592/25da2a5d-42d9-4da2-b31d-eb0b2ff8bd9f)
 
 ## Overview
 
@@ -36,7 +36,7 @@ This project is a product page template for an e-commerce website, designed to s
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/product-page-for-e-commerce.git
+   git clone https://github.com/devshahmeer/product-page-e-commerce.git
    ```
 
 2. Install dependencies:
@@ -62,8 +62,8 @@ This project is a product page template for an e-commerce website, designed to s
 
 ## Customization
 
-- Adjust styles using the provided CSS variables in the `styles.css` file.
-- Modify the layout and structure in the Next.js components (`Home.js`, etc.).
+- Adjust styles using the provided CSS variables in the `globel.css` file.
+- Modify the layout and structure in the Next.js components (`page.js`, etc.).
 - ...
 
 ## Contributing
